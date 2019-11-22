@@ -1,0 +1,151 @@
+h1, h2, h3, h4,h5,span{ font-family: 'Muli',Light; }
+
+.html {
+  font-size: 14px;
+}
+
+.body{
+    position: relative;
+}
+.content{
+    max-width: 1000px;
+}
+
+.spacer{
+    height: 50px;
+    min-height: 50px;
+}
+.baike-color{
+    color: #3e6990;
+}
+
+.baike-color-2{
+    color: #aabd8c;
+}
+.title{
+    max-width: 600px;
+    text-align: left;
+}
+
+
+.bg-baike{
+    background-color: #3e6990;
+    color: #ffffff;
+}
+
+.bg-baike-dark{
+    background-color: #381d2a;
+    color: #ffffff;
+}
+.bg-baike-border{
+    border-color: #3e6990;
+    color: #3e6990;
+}
+
+.bg-baike-borderonly{
+    border-color: #3e6990;
+}
+
+.bg-baike-2{
+    background-color: #aabd8c;
+    color: #ffffff;
+}
+
+.bg-baike-3{
+    background-color: #f39b6d;
+    color: #ffffff;
+}
+
+.btn-baike, .btn-baike:visited {
+    border-color: #3e6990;
+    color: #3e6990;
+}
+.btn-baike:hover, .btn-baike:active{
+    border-color: #3e6990;
+    background-color: #3e6990;
+    color: #ffffff;
+}
+
+.btn-baike-2, .btn-baike-2:visited {
+    border-color: #aabd8c;
+    color: #aabd8c;
+}
+.btn-baike-2:hover, .btn-baike-2:active{
+    border-color: #aabd8c;
+    background-color: #aabd8c;
+    color: #ffffff;
+}
+
+
+.over_imageR {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.baike_bicycle {
+    background: url('images/symbol_white.svg');
+	background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+	display: inline-block;
+}
+
+.baike2_bicycle {
+    background: url('images/bike_2_trans_nosq.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 667px;
+}
+
+.bg-bicycle {
+    background: url('images/bike_white_bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 667px;
+}
+
+
+#hide_onload{
+ display: none;
+}
+
+
+.mac {
+  background: url(images/imac.png) 0 0 no-repeat;
+  background-size: 940px 778px;
+  color: white;
+  margin-bottom: 77px;
+  padding: 38px 38px 267px;
+  position: relative;
+  min-height:778px;
+}
+
+.bg-pattern-2{
+    background-image: url('images/bg-pattern-2.svg');
+    background-size: 100px;
+    color: white;
+
+}
+
+.bg-pattern-3{
+    background-image: url('images/bg-pattern-3.svg');
+    background-size: 100px;
+    color: white;
+}
+
+
+.view{
+background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.46'%3E%3Cpolygon fill='%23fafafa' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23f5f5f5' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23f0f0f0' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23eaeaea' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23e5e5e5' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23e0e0e0' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23dbdbdb' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+.bg-pattern{
+    background-color: #f6efa6;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23f39b6d' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23f6efa6' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23e1eaa3' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23cde4a1' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23b9dea0' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23a5d8a1' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%2392d1a2' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%2380caa4' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%236ec2a6' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%235ebaa8' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%234fb2a9' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%2341a9aa' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%2336a1aa' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%232f98a9' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%232c8fa6' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%232e85a3' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23327c9e' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23387297' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%233e6990' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
