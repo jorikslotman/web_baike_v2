@@ -3,7 +3,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=yes" name="viewport">
 
     <!-- Bootstrap CSS -->
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
@@ -17,17 +17,22 @@
 <div class="bg-pattern-2 d-flex flex-column align-items-stretch text-dark" >
 
 <!-- Navbar -->
-<div class="sticky-top d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-light border-bottom shadow-sm">
-    <a class="navbar-brand my-0 mr-md-auto" href="index.html">
+<div class="sticky-top d-flex flex-xs-column flex-xs-row align-items-center p-md-3 px-md-4 bg-light border-bottom shadow-sm">
+    <a class="navbar-brand my-xs-0 mr-auto pl-1" href="index.html">
         <img alt="" height="25" src="images/logo.svg">
     </a>
-    <nav class="navbar my-2 my-md-0 mr-md-3">
-        <a class="nav-link text-dark" href="features.html" tabindex="-1" aria-disabled="true">Features</a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Enterprise</a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Support</a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Pricing</a>
+    <nav class="navbar navbar-expand-md my-md-0 mr-md-3">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-dark">Menu</span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="nav-link text-dark" href="features.html" tabindex="-1" aria-disabled="true">Features</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Enterprise</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Support</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Pricing</a>
+            <a class="btn btn-baike" href="index.html">Sign up</a>
+        </div>
     </nav>
-    <a class="btn btn-baike" href="index.html">Sign up</a>
 </div>
 
 
@@ -41,7 +46,7 @@
 
         <div class="row d-flex justify-content-around flex-wrap mt-0 mb-5 pb-5 pt-5">
             <div class="col-sm title mt-5">
-                <h1 class="display-4">Connect customers with your bike stock.</h1>
+                <h1>Connect customers with your bike stock.</h1>
                 <p>Increase your conversion rate with this novel tool that enriches product tags. Automatically. Welcome to the future of retail.</p>
 
                 <span><a class="btn mt-3 btn-baike" href="features.html">Discover Baike</a></span>
@@ -96,7 +101,7 @@
 <div class="container-fluid">
     <div class="container content">
         <div class="row d-flex justify-content-around py-5">
-            <div class="col-sm ml-5">
+            <div class="col-sm ml-sm-5">
                 <div class="card bg-baike-borderonly" data-scrolly-down="blurInRight,duration:0.5s" style="color:#3E6990;">
                   <h5 class="card-header">Discover auto-tagging.</h5>
                   <div class="card-body">
