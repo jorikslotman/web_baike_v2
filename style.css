@@ -113,12 +113,15 @@ h1, h2, h3, h4,h5,span{ font-family: 'Muli',Light; }
 
 .mac {
   background: url(images/imac.png) 0 0 no-repeat;
-  background-size: 940px 778px;
+  background-size: 100%;
+
   color: white;
   margin-bottom: 77px;
   padding: 38px 38px 267px;
   position: relative;
   min-height:778px;
+  max-height:778px;
+
 }
 
 .bg-pattern-2{
