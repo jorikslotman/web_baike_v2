@@ -28,7 +28,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <a class="nav-link text-dark" href="index.html" tabindex="-1" aria-disabled="true">Home</a>
             <a class="nav-link text-dark" href="features.html" tabindex="-1" aria-disabled="true">Features</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Enterprise</a>
+            <a class="nav-link text-dark" href="enterprise.html" tabindex="-1" aria-disabled="true">Enterprise</a>
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Support</a>
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Pricing</a>
             <a class="btn btn-baike" href="signup.html">Sign up</a>
@@ -47,21 +47,21 @@
         <div class="row d-flex justify-content-around pt-5 text-center">
             <div class="col-xs-12 col-lg-12 mb-3 mx-3">
                 <h3>Learn more about the solutions from Baike.</h3>
-                <div class="col-xs-12 mac d-flex justify-content-around mt-3">
-                    <div class="card text-dark align-self-start align-items-center pt-2 mt-md-5 mt-xs-0 pt-md-5" style="width: 18rem; min-height:20rem">
+                <div class="col-xs-12 mac d-flex justify-content-around mt-md-3" >
+                    <div class="card text-dark align-self-start align-items-center pt-2 mt-md-5 mt-0 pt-md-5 text-wrap" style=" max-width: 20em;max-height:400px;">
                       <img src="assets\icons\tags-solid.svg" style="width:20%" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Deep tagging</h5>
-                          <p class="card-text">Enrich the product tags of your assortment to ease bicycle shopping online. </p><br/>
-                        <a href="#deeptagging" class="btn btn-baike-2">Learn more</a>
+                        <h5 class="card-title my-1" style="font-size:4vh">Deep tagging</h5>
+                          <p class="card-text mb-0" style="font-size:2vh">Enrich the product tags of your assortment to ease bicycle shopping online. </p>
+                        <a href="#deeptagging" class="btn btn-baike-2 mt-2" style="font-size:2vh">Learn more</a>
                       </div>
                     </div>
-                    <div class="card text-dark align-self-start align-items-center pt-2 mt-md-5 mt-xs-0 pt-md-5" style="width: 18rem; min-height:20rem">
+                    <div class="card text-dark align-self-start align-items-center pt-2 mt-md-5 mt-0 pt-md-5 text-wrap" style=" max-width: 20em;max-height:400px;">
                       <img src="assets\icons\camera-retro-solid.svg" style="width:20%" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Visual search</h5>
-                        <p class="card-text">Let customers user their own camera to find the bike they want in your shop.</p>
-                        <a href="#visualsearch" class="btn btn-baike">Learn more</a>
+                        <h5 class="card-title my-1" style="font-size:4vh">Visual search</h5>
+                        <p class="card-text mb-0" style="font-size:2vh">Let customers user their own camera to find the bike they want in your shop.</p>
+                        <a href="#visualsearch" class="btn btn-baike mt-2" style="font-size:2vh">Learn more</a>
                       </div>
                     </div>
 
@@ -78,74 +78,78 @@
 <div class="container-fluid bg-light" id = "deeptagging">
     <div class="container content" >
 
-        <div class="row align-middle pt-5">
+        <div class="row align-middle py-5">
            <div class="col-sm text-center mb-3 ml-5">
                 <img src="assets/icons/tags-solid.svg" style="width:100px;"/>
 
             </div>
-           <div class="col-sm text-center mb-3 ml-5">
-                <span>Fasten your workflow, automate time-consuming tasks and increase your website turnover with the advanced deep tagging-tool from Baike. </span>
+           <div class="col-sm text-center mb-md-3 ml-1 ml-md-5">
+                <span class="baike-color">Fasten your workflow, automate time-consuming tasks and increase your website turnover with the advanced deep tagging-tool from Baike. </span>
 
             </div>
         </div>
 
-        <div class="row baike2_bicycle d-flex justify-content-start pt-5">
+        <div class="row baike2_bicycle d-flex justify-content-md-start pt-5" style="position:relative;"    >
 
-            <div id="scene" data-scrolly-down="fadeInRight">
-                <div data-depth="0.2"><img alt="" style='position: absolute;float: left;margin-left:30px;margin-top:-30px; width:1000px;'
-                                           src = 'images/bike_2_trans_sq.png' />
+            <div id="scene" data-scrolly-down="fadeInRight" class='mt-5' style="z-index: 100;display: block;position: absolute;top: 0;left: 0;z-index: 1;">
+                <div data-depth="0.2"><img alt="" style='margin-top:-30px; max-width:100%;height: auto;'
+                                           src = 'images/bike_2_trans_sq.png'/>
                 </div>
             </div>
 
-            <div class="col text-center mb-3 ml-5">
-                <h4>Deep tagging</h4>
-                <h5>the future of bike retail. </h5>
 
-            </div>
-
-            <div class="col-sm d-flex align-items-end flex-column bd-highlight mb-3">
-
-                <div class="card mt-3 mb-3 bg-baike-2" data-scrolly-down="blurInRight,duration:0.5s" style="width: 15rem;">
-                  <div class="card-header text-center">
-                      <b>Deep tagging</b>
-                  </div>
+            <div class="row d-flex justify-content=end w-100" style="z-index: 110;display: block;position: absolute;top: 0; z-index: 100;">
+                <div class="col-sm text-center mb-md-3 ml-1 ml-md-5">
+                    <h4>Deep tagging</h4>
+                    <h5 >the future of bike retail. </h5>
                 </div>
 
-                <div class="card mt-3 mb-3 bg-baike-border" data-scrolly-down="blurInLeft,duration:0.5s" style="width: 15rem;">
-                  <div class="card-header">
-                      <b>Bike type:</b> Oldschool
-                  </div>
+                <div class="col-sm d-flex align-items-end flex-column mt-md-5">
+
+                    <div class="card mt-md-3 mb-3 bg-baike-2" data-scrolly-down="blurInRight,duration:0.5s" style="min-width:10vh; width:30vh;max-height:5em;font-size:1vw;max-width:220px">
+                      <div class="card-header text-center py-1 px-2 text-truncate ">
+                          <b>Deep tagging</b>
+                      </div>
+                    </div>
+
+                    <div class="card mb-md-3 mb-1  bg-baike-border" data-scrolly-down="blurInLeft,duration:0.5s" style="min-width:10vh; width:30vh;max-height:5em;font-size:1vw;max-width:220px">
+                      <div class="card-header py-1 px-2 text-truncate">
+                          <b>Bike type:</b> Oldschool
+                      </div>
+                    </div>
+                    <div class="card mb-md-3 mb-1  bg-baike-border" data-scrolly-down="blurInLeft,duration:0.5s" style="min-width:10vh; width:30vh;max-height:5em;font-size:1vw;max-width:220px">
+                      <div class="card-header py-1 px-2 text-truncate">
+                          <b>Handlebar:</b> Bullhorn
+                      </div>
+                    </div>
+                    <div class="card mb-md-3 mb-1 bg-baike-border" data-scrolly-down="blurInLeft,duration:0.5s" style="min-width:10vh; width:30vh;max-height:5em;font-size:1vw;max-width:220px">
+                      <div class="card-header py-1 px-2 text-truncate">
+                          <b>Chain guard:</b> None
+                      </div>
+                    </div>
+                    <div class="card mb-md-3 mb-1  bg-baike-border" data-scrolly-down="blurInLeft,duration:0.5s" style="min-width:10vh; width:30vh;max-height:5em;font-size:1vw;max-width:220px">
+                      <div class="card-header py-1 px-2 text-truncate">
+                          <b>Mudguards:</b> None
+                      </div>
+                    </div>
+                    <div class="card mb-md-3 mb-1 bg-baike-border" data-scrolly-down="blurInLeft,duration:0.5s" style="min-width:10vh; width:30vh;max-height:5em;font-size:1vw;max-width:220px">
+                      <div class="card-header py-1 px-2 text-truncate">
+                          <b>Brake type:</b> V-brakes
+                      </div>
+                    </div>
+                    <div class="card mb-md-3 mb-1  bg-baike-border" data-scrolly-down="blurInLeft,duration:0.5s" style="min-width:10vh; width:30vh;max-height:5em;font-size:1vw;max-width:220px">
+                      <div class="card-header py-1 px-2 text-truncate">
+                          <b>Saddle color:</b> Light leather
+                      </div>
+                    </div>
+                    <div class="card mb-md-3 mb-1  bg-baike-border" data-scrolly-down="blurInLeft,duration:0.5s" style="min-width:10vh; width:30vh;max-height:5em;font-size:1vw;max-width:220px">
+                      <div class="card-header py-1 px-2 text-truncate">
+                          <b>Luggage carrier:</b> None
+                      </div>
+                    </div>
+
                 </div>
-                <div class="card mb-3 bg-baike-border" data-scrolly-down="blurInLeft,duration:0.5s" style="width: 15rem;">
-                  <div class="card-header">
-                      <b>Handlebar:</b> Bullhorn
-                  </div>
-                </div>
-                <div class="card mb-3 bg-baike-border" data-scrolly-down="blurInLeft,duration:0.5s" style="width: 15rem;">
-                  <div class="card-header">
-                      <b>Chain guard:</b> None
-                  </div>
-                </div>
-                <div class="card mb-3 bg-baike-border" data-scrolly-down="blurInLeft,duration:0.5s" style="width: 15rem;">
-                  <div class="card-header">
-                      <b>Mudguards:</b> None
-                  </div>
-                </div>
-                <div class="card mb-3 bg-baike-border" data-scrolly-down="blurInLeft,duration:0.5s" style="width: 15rem;">
-                  <div class="card-header">
-                      <b>Brake type:</b> V-brakes
-                  </div>
-                </div>
-                <div class="card mb-3 bg-baike-border" data-scrolly-down="blurInLeft,duration:0.5s" style="width: 15rem;">
-                  <div class="card-header">
-                      <b>Saddle color:</b> Light leather
-                  </div>
-                </div>
-                <div class="card mb-3 bg-baike-border" data-scrolly-down="blurInLeft,duration:0.5s" style="width: 15rem;">
-                  <div class="card-header">
-                      <b>Luggage carrier:</b> None
-                  </div>
-                </div>
+
             </div>
 
         </div>
@@ -170,7 +174,7 @@
 
             </div>
             <div class="col-sm mb-3 mx-3">
-                <img src="assets/icons/camera-retro-solid.svg" style="width:100px;"/>
+                <img src="assets/icons/camera-retro-solid.svg" style="width:10vh;max-width:5em"/>
             </div>
         </div>
         <div class="row d-flex justify-content-around pt-5 text-center">
