@@ -188,6 +188,13 @@ body {
     right: 0;
     width: 160px;
   }
+
+
+  .card .card-body .card-text {
+    text-align: justify;
+  }
+
+
   /* .footer-widget-r-content li span {
     font-weight: 600;
     text-transform: uppercase;
